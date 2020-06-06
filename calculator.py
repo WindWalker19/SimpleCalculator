@@ -24,8 +24,8 @@ while(i != 0):
     num2 = input("Enter the second number: ")
     operation = input("Enter the operation to be performed.")
 
-    first = int(num1)
-    second = int(num2)
+    first = float(num1)
+    second = float(num2)
 
     if(operation == "+"):
         answer = add(first,second)
